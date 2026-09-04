@@ -1,18 +1,25 @@
 # A/B Testing & Customer Analytics Framework
 
-## 📌 Project Overview
-An end-to-end statistical analysis framework designed to evaluate user behavior, measure conversion shifts, and assess product changes using rigorous hypothesis testing.
+## 📌 Problem Statement & Business Context
 
-## 🎯 Business Objectives
-* **Experiment Evaluation:** Assess the statistical significance of marketplace and UI updates.
-* **Conversion Variance Analysis:** Isolate metric changes across different user cohorts.
-* **Data-Driven Decision Making:** Translate raw statistical findings into clear, actionable business recommendations for product teams.
+**The Operational Challenge:**
+Modern digital marketplaces and e-commerce platforms frequently roll out UI updates, feature modifications, and pricing shifts. Relying on intuition or global averages often leads to misinformed product decisions, failing to account for conversion variances across distinct user cohorts or separating random noise from statistically significant behavioral shifts.
 
-## 📊 Methodology & Analytical Framework
-* **Statistical Testing:** Applied hypothesis testing and evaluation metrics to validate behavioral differences between user groups.
-* **Data Processing:** Cleaned and analyzed user interaction datasets using Python data processing libraries.
+**The Solution:**
+This project implements an **end-to-end statistical evaluation framework** designed to measure user behavior changes and evaluate marketplace experiments with high mathematical rigor. The system bridges raw data processing with actionable product strategy through three core pillars:
+1. **Experimental Design & Setup:** Defining control and treatment cohorts to accurately capture user response variations during platform rollouts.
+2. **Rigorous Hypothesis Testing:** Applying statistical tests (such as $t$-tests, $z$-tests, and $p$-value evaluations) to determine the statistical significance of metric changes.
+3. **Cohort & Conversion Variance Analysis:** Isolating performance differences across specific user segments to translate abstract statistics into concrete product recommendations.
 
-## 🚀 How to Run This Project
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/SatyamPratap288/ab-testing-project.git](https://github.com/SatyamPratap288/ab-testing-project.git)
+---
+
+## 🏗️ Project Architecture & Structure
+
+```text
+ab-testing-project/
+│
+├── data/                  # Raw and processed user interaction datasets
+├── notebooks/             # Exploratory data analysis and hypothesis testing notebooks
+├── src/                   # Statistical calculation and data processing scripts
+├── README.md              # Project documentation
+└── requirements.txt       # Project dependencies
