@@ -23,3 +23,5 @@ ab-testing-project/
 ├── src/                   # Statistical calculation and data processing scripts
 ├── README.md              # Project documentation
 └── requirements.txt       # Project dependencies
+git clone [https://github.com/SatyamPratap288/ab-testing-project.git](https://github.com/SatyamPratap288/ab-testing-project.git)
+pip install -r requirements.txt
