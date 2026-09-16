@@ -54,16 +54,10 @@ Use cointegration analysis to examine whether advertising cost and conversions e
 Use Beta distributions and Monte Carlo simulation to estimate the probability that one campaign's underlying conversion rate exceeds the other's.
 
 ---
+## Project Structure
 
-## 🏗️ Project Architecture & Structure
-
-```text
 ab-testing-project/
-│
-├── data/                  # Raw and processed user interaction datasets
-├── notebooks/             # Exploratory data analysis and hypothesis testing notebooks
-├── src/                   # Statistical calculation and data processing scripts
-├── README.md              # Project documentation
-└── requirements.txt       # Project dependencies
-git clone [https://github.com/SatyamPratap288/ab-testing-project.git](https://github.com/SatyamPratap288/ab-testing-project.git)
-pip install -r requirements.txt
+
+├── AB Testing (Marketing Campaigns).ipynb
+├── marketing_campaign.csv
+└── README.md
